@@ -10,7 +10,7 @@ replayBtn = resultBox.querySelector("button");
 window.onload = ()=>{
     for (let i = 0; i < allBox.length; i++) {
        allBox[i].setAttribute("onclick", "clickedBox(this)");
-    }
+    } 
 }
 selectBtnX.onclick = ()=>{
     selectBox.classList.add("hide");
